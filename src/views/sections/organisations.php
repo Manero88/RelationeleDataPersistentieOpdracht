@@ -25,7 +25,7 @@ $organisations = $controller->getAll();
                     <th></th>
                 <tr>
                 </thead>
-                <?php while ($organisation = $organisations->fetch_object('Organisation')): ?>
+                <?php while ($organisation = $organisations->fetch_object('smd\\models\\Organisation')): ?>
                     <tr>
                         <td><?= $organisation->getName() ?></td>
                         <td>

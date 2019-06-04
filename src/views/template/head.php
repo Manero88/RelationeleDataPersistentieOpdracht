@@ -48,16 +48,7 @@ $userController = new UserController();
                 <li class="nav-item"><a href="/src/views/sections/user/register.php" class="nav-link">Registreren</a></li>
             <?php endif; ?>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                NL
-                </a>
                 <div id="Translator_language_selector"></div>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="?lang=nl">nl</a>
-                    <a class="dropdown-item" href="?lang=en">En</a>
-                    <a class="dropdown-item" href="?lang=fr">Fr</a>
-                    <a class="dropdown-item" href="?lang=de">De</a>
-                </div>
             </li>
         </ul>
     </div> 

@@ -23,7 +23,7 @@ $festivals = $controller->getAll();?>
                 <tr>
                 </thead>
                 <tbody>
-                <?php while ($festival = $festivals->fetch_object('Festival')): ?>
+                <?php while ($festival = $festivals->fetch_object('smd\\models\\Festival')): ?>
                     <tr>
                         <td><?= $festival->getName(); ?></td>
                         <td>

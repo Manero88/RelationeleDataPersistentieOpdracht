@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . './src/views/template/head.php';
+require_once  './src/views/template/head.php';
 
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -135,4 +135,4 @@ error_reporting(E_ALL);
         </div>
     </article>
 </section>
-<?php require_once __DIR__ . './src/views/template/bottom.php'; ?>
+<?php require_once  './src/views/template/bottom.php'; ?>
